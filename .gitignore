@@ -1,0 +1,13 @@
+local-data/*
+!local-data/.gitkeep
+*.db
+*.sqlite*
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+src-tauri/target/
+*.wav
+*.webm

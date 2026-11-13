@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Minimal permissions: window basics plus toggling screen-capture protection. No shell, no filesystem.",
+  "windows": ["main"],
+  "permissions": ["core:default", "core:window:allow-set-content-protected"]
+}
